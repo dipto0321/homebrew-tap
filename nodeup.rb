@@ -5,21 +5,21 @@
 class Nodeup < Formula
   desc "Automated Node.js version upgrade with global package migration"
   homepage "https://github.com/dipto0321/nodeup"
-  version "1.0.1"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dipto0321/nodeup/releases/download/v1.0.1/nodeup_1.0.1_darwin_amd64.tar.gz"
-      sha256 "09d0b253bfa4e8bd545ad1cf5f4171da20dc16c47fe55d786672f96a7bb4f96f"
+      url "https://github.com/dipto0321/nodeup/releases/download/v1.1.0/nodeup_1.1.0_darwin_amd64.tar.gz"
+      sha256 "bea8b17cf33fd302ed380d26cd0a7627c329a593e6ccd9538891f3aff3f5740b"
 
       define_method(:install) do
         bin.install "nodeup"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/dipto0321/nodeup/releases/download/v1.0.1/nodeup_1.0.1_darwin_arm64.tar.gz"
-      sha256 "46b7e5ae51c1055bf732a291d5155c11836bed2c092a2250fc74e90b5225ab6e"
+      url "https://github.com/dipto0321/nodeup/releases/download/v1.1.0/nodeup_1.1.0_darwin_arm64.tar.gz"
+      sha256 "0fb60b710b3eeb9e6451277ca74a36f5f54759ce63db5096f9feab9fee7b0106"
 
       define_method(:install) do
         bin.install "nodeup"
@@ -29,15 +29,15 @@ class Nodeup < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dipto0321/nodeup/releases/download/v1.0.1/nodeup_1.0.1_linux_amd64.tar.gz"
-      sha256 "50fc85ed7c53cce1366ed794cf4ce0c7b34fb5e5627b200c9a472c41121647f5"
+      url "https://github.com/dipto0321/nodeup/releases/download/v1.1.0/nodeup_1.1.0_linux_amd64.tar.gz"
+      sha256 "ad1128b15207cbc37f1c66491dbdae5a0c2b5e0f911828e427bebf0788ce3b99"
       define_method(:install) do
         bin.install "nodeup"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dipto0321/nodeup/releases/download/v1.0.1/nodeup_1.0.1_linux_arm64.tar.gz"
-      sha256 "3119b68b6e95d633cd89dec9b2e72ff1c9989a97b5032b136e40213437249fd3"
+      url "https://github.com/dipto0321/nodeup/releases/download/v1.1.0/nodeup_1.1.0_linux_arm64.tar.gz"
+      sha256 "93a091d2091c2a9c579dd3a2fc55186a751af07f1d2c2d4cc6de18c4fab4267d"
       define_method(:install) do
         bin.install "nodeup"
       end
