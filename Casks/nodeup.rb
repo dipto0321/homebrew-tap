@@ -4,21 +4,21 @@ cask "nodeup" do
 
   on_macos do
     on_arm do
-      sha256 "4fb1de74e36aae0fb99b25c54b02fda82161a0f21b94c75ab5dabe46253e987a"
+      sha256 "2ec85f4d946590ade2e6b86baf7e4c444b75c3082d43beae7d5603e9cc1b3ad1"
       url "https://github.com/dipto0321/nodeup/releases/download/v1.2.1/nodeup_1.2.1_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d6ec94a52fca8dc7790a01b0ae06ac62605c4683bc6e29ae3f1cf0e7ffe4ade5"
+      sha256 "373fffbcc3cf6938934cde8ca54e4764c8285587232cce818e1cd6da86fe5153"
       url "https://github.com/dipto0321/nodeup/releases/download/v1.2.1/nodeup_1.2.1_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5c5e3c540889400c132205e9b6be274c0c17250ee91de28ec7ac423c5c7e694f"
+      sha256 "7f64edbee3502743d51524e9087452ded87638e08c18385f68d4cc8e5818ace8"
       url "https://github.com/dipto0321/nodeup/releases/download/v1.2.1/nodeup_1.2.1_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ffe7ecfaa721eecaf5a821eacfc65eb225dee029920d31f6d4aa23dd9c2c5e00"
+      sha256 "2ccf07d50cb41d5a71a8592875bcd1f0c1b50397b35b1128be4e4a4c595419fc"
       url "https://github.com/dipto0321/nodeup/releases/download/v1.2.1/nodeup_1.2.1_linux_amd64.tar.gz"
     end
   end
